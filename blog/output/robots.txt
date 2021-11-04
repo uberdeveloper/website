@@ -1,0 +1,4 @@
+Sitemap: https://www.notprescient.com/sitemapindex.xml
+
+User-Agent: *
+Host: www.notprescient.com
