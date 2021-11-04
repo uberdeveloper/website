@@ -7,11 +7,15 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://www.notprescient.com/</loc>
-  <lastmod>2021-11-04T06:47:00Z</lastmod>
+  <lastmod>2021-11-04T07:00:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://www.notprescient.com/2021/</loc>
+  <lastmod>2021-11-04T07:00:00Z</lastmod>
  </url>
  <url>
   <loc>https://www.notprescient.com/archive.html</loc>
-  <lastmod>2021-11-04T06:47:00Z</lastmod>
+  <lastmod>2021-11-04T07:00:00Z</lastmod>
  </url>
  <url>
   <loc>https://www.notprescient.com/categories/</loc>
@@ -24,5 +28,9 @@
  <url>
   <loc>https://www.notprescient.com/listings/</loc>
   <lastmod>2021-11-04T06:47:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://www.notprescient.com/posts/sharpe-ratio/</loc>
+  <lastmod>2021-11-04T07:00:00Z</lastmod>
  </url>
 </urlset>
