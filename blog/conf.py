@@ -26,6 +26,7 @@ SITE_URL = "https://www.notprescient.com/"
 # BASE_URL = "https://www.notprescient.com/"
 BLOG_EMAIL = "uberdeveloper001@gmail.com"
 BLOG_DESCRIPTION = "Random mumblings on systematic trading"  # (translatable)
+THEME='canterville'
 
 # Nikola is multilingual!
 #
