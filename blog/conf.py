@@ -25,10 +25,10 @@ SITE_URL = "https://www.notprescient.com/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://www.notprescient.com/"
 BLOG_EMAIL = "uberdeveloper001@gmail.com"
-BLOG_DESCRIPTION = "Random mumblings on systematic trading"  # (translatable)
-THEME='canterville'
+BLOG_DESCRIPTION = "Random rumblings by somebody learning finance"  # (translatable)
+GLOBAL_CONTEXT = {}
 
-# Nikola is multilingual!
+# NIKOLA IS MULTILINGUAL!
 #
 # Currently supported languages are:
 #
@@ -155,8 +155,7 @@ NAVIGATION_ALT_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "bootblog4"
-
+THEME = "lanyon"
 # A theme color. In default themes, it might be displayed by some browsers as
 # the browser UI color (eg. Chrome on Android). Other themes might also use it
 # as an accent color (the default ones don’t). Must be a HEX value.
