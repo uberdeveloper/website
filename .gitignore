@@ -133,3 +133,4 @@ dmypy.json
 *.firebase*
 themes
 cache
+output
