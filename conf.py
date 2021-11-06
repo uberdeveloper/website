@@ -936,7 +936,7 @@ IMAGE_FOLDERS = {'images': 'images'}
 # )
 
 # Show teasers (instead of full posts) in indexes? Defaults to False.
-# INDEX_TEASERS = False
+INDEX_TEASERS = True 
 
 # HTML fragments with the Read more... links.
 # The following tags exist and are replaced for you:
@@ -952,7 +952,7 @@ IMAGE_FOLDERS = {'images': 'images'}
 # }}                            A literal } (U+007D RIGHT CURLY BRACKET)
 
 # 'Read more...' for the index page, if INDEX_TEASERS is True (translatable)
-INDEX_READ_MORE_LINK = '<p class="more"><a href="{link}">{read_more}…</a></p>'
+INDEX_READ_MORE_LINK = '<p class="more"><a href="{link}">{read_more}... {reading_time} minute read</a></p>'
 # 'Read more...' for the feeds, if FEED_TEASERS is True (translatable)
 FEED_READ_MORE_LINK = '<p><a href="{link}">{read_more}…</a> ({min_remaining_read})</p>'
 
