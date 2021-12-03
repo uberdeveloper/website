@@ -4,3 +4,6 @@ div.input_prompt{
 div.output_prompt{
     display: none;
 }
+div.prompt{
+    display: none;
+}
