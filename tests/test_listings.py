@@ -11,8 +11,10 @@ def matrix():
     return pd.read_excel('tests/transition.xls', sheet_name='raw')
 
 def test_transition_matrix(matrix):
-    assert transition_matrix(matrix) == {'aa':0.3,'ab':0.3,'ba':0.2,'bb':0.2}
+    result = {('a', 'a'):0.3, ('a','b'):0.3, ('b','a'):0.2, ('b','b'):0.2}
+    assert transition_matrix(matrix) == result
 
 def test_transition_matrix_count(matrix):
-    assert transition_matrix(matrix,prob=False) == {'aa':3,'ab':3,'ba':2,'bb':2}
+    result = {('a', 'a'):3, ('a','b'):3, ('b','a'):2, ('b','b'):2}
+    assert transition_matrix(matrix,prob=False) == result
 
